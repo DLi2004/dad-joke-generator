@@ -1,4 +1,19 @@
-body {
-  background-color: white;
+.joke-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
+footer {
+  position: fixed;
+  bottom: 0px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+#made-by, #made-by:hover, #made-by:active, #made-by:focus {
+  text-decoration: none;
+  color: black;
+}
